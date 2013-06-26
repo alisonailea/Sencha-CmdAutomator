@@ -34,7 +34,7 @@ elif [ "$comd_set" = "app_build" ] ; then
 	sencha_app_path="${2}"
 	cd $sencha_app_path/
 	sencha app build
-	echo "New "
+	echo "New Sencha App build complete."
 else
     echo "There has been an error. Please enter a command."
 fi
