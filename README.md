@@ -38,6 +38,7 @@ fullappbuild  :  This is a complete recompiling of everything in your Applicatio
    
 
  ##Notes
+
  This script will automatically create a hidden config file within it's same directory. Which will store your Path and Theme so you only have to set them up once.
 
  It is recommended that you create an Alias for this file so that it may be run more efficiently.
