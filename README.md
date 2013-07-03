@@ -10,7 +10,7 @@ A small shell script to automate some of my common Sencha terminal commands.
 
 ##Structure
 
-SenchaCMD-automator.sh Arguments Path(if required)
+SenchaCMD-automator.sh [Arguments] [Path(if required)]
 
 ##Arguments
 
