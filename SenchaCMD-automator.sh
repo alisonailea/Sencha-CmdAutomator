@@ -111,7 +111,7 @@ function runcase () {
 							cd $APP_PATH/packages/$THEME_NAME/
 							sencha package build
 							cd  build
-							sass --compass --sourcemap item-viewer-all-debug.scss:resources/item-viewer-all.css
+							sass --compass --sourcemap $THEME_NAME-all-debug.scss:resources/$THEME_NAME-all.css
 							cd ../../../
 							sencha ant sass
 							echo "\nSencha full theme style update complete.\n Includes:\n -sencha package build\n -sencha --compass --sourcemap\n -sencha ant sass\n"
@@ -151,7 +151,7 @@ function runcase () {
 							cd $APP_PATH/packages/$THEME_NAME/
 							sencha package build
 							cd  build
-							sass --compass --sourcemap item-viewer-all-debug.scss:resources/item-viewer-all.css
+							sass --compass --sourcemap $THEME_NAME-all-debug.scss:resources/$THEME_NAME-all.css
 							echo "\nCompass sourcemap for your Sencha application updated.\n"
 						else
 							echo "\nPlease set a Sencha theme name.\n"
@@ -168,7 +168,7 @@ function runcase () {
 					cd packages/$THEME_NAME/
 					sencha package build
 					cd  build
-					sass --compass --sourcemap item-viewer-all-debug.scss:resources/item-viewer-all.css
+					sass --compass --sourcemap $THEME_NAME-all-debug.scss:resources/$THEME_NAME-all.css
 					echo "\nYour Sencha application has been fully updated.\n Including app, package and Compass source-mapping.\n"
 				else
 					echo "\nPlease set the name of your Sencha application theme.\n"
