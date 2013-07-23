@@ -7,6 +7,8 @@ VARBACKUP="$BASEDIR/$BAKFILENAME";
 #  HELP FILES
 #  -----------------------------------------------------------
 function help () {
+#   This project needs to be rewritten for updated workflows.
+#  -----------------------------------------------------------
 	echo "\n##Structure\n --------------------------"
 	echo "\nSenchaCMD-automator.sh [Arguments] [Path (if required)]\n"
 	echo "\n ##Arguments\n --------------------------\n"
